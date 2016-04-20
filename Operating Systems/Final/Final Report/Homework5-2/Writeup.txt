@@ -1,0 +1,12 @@
+#name: Pavin Disatapundhu
+#e-mail: disatapp@onid.oregonstate.edu
+#class: CS344-400
+#assignment: Homework #5, text file
+
+In the multiprocess part I gave process different ranges for the parallel process to calculate. The range of each process is calculated by dividing current process by the number of process to get the ratio and multiplying by the square root of the size, that value can be used to find the min and max value of that segment. The different ranges are handled by the child processes. Once the range is compute data is returned.
+
+The multithread different data are passed and depending on the number of process the different process are divided and different range for each process is calculated, in a similar manor to multiprocessor, however, the different ranges are handled by threads instead. Once the range is compute data is returned.
+
+Know issues:		
+Time can’t be properly commuted.
+Bash file doesn’t work.

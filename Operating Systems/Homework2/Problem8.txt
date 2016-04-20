@@ -1,0 +1,24 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1343\cocoasubrtf140
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red0\green116\blue0;\red14\green14\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab529
+\pard\tx529\pardeftab529\pardirnatural
+
+\f0\fs22 \cf2 \CocoaLigature0 # Pavin Disatapundhu\cf0 \
+\cf2 # {\field{\*\fldinst{HYPERLINK "mailto:disatapp@onid.oregonstate.edu"}}{\fldrslt \cf3 disatapp@onid.oregonstate.edu}}\cf0 \
+\cf2 # CS344-400\cf0 \
+\cf2 # homework#2 Question8\
+
+\f1\fs20 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 Starting program: /nfs/stak/students/d/disatapp/labs/S4/CS344/Homework2/Problem8 bt\
+\
+Program received signal SIGSEGV, Segmentation fault.\
+0x000000000040049c in func (ptr=0x0) at Problem8.c:13\
+13	        ptr[i] = i;\
+Missing separate debuginfos, use: debuginfo-install glibc-2.12-1.132.el6.x86_64\
+(gdb) print ptr\
+$1 = (int *) 0x0\
+(gdb) print i\
+$2 = 0}
